@@ -1,5 +1,3 @@
-![Cat and Dog Classifier Banner](cat_dog_classifier_banner.png)
-
 # Cat and Dog Image Classifier (Deep Learning)
 
 **Author:** Shehani Gunasekara  

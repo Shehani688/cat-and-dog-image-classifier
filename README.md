@@ -1,67 +1,75 @@
-#Cat and Dog Image Classifier (Deep Learning)
-Author: Shehani Gunasekara
-Tools: TensorFlow, Keras, Python, Google Colab, NumPy, Matplotlib
-Dataset: FreeCodeCamp Cats and Dogs Dataset
+![Cat and Dog Classifier Banner](cat_dog_classifier_banner.png)
 
-Project Overview
-This project builds a convolutional neural network (CNN) to classify images of cats and dogs. The model uses deep learning techniques to learn features from images and accurately predict the class of new images.
+# Cat and Dog Image Classifier (Deep Learning)
 
-Dataset
-Source: FreeCodeCamp Cats and Dogs Dataset
+**Author:** Shehani Gunasekara  
+**Tools:** TensorFlow, Keras, Python, Google Colab, NumPy, Matplotlib  
+**Dataset:** [FreeCodeCamp Cats and Dogs Dataset](https://cdn.freecodecamp.org/project-data/cats-and-dogs/cats_and_dogs.zip)
 
-Content: Images of cats and dogs split into training, validation, and test sets
+---
 
-Workflow
-Data Preprocessing:
+## Project Overview
 
-Loaded and rescaled images using ImageDataGenerator
+This project implements a convolutional neural network (CNN) to classify images of cats and dogs. Using deep learning techniques, the model learns image features and predicts whether a new image is a cat or a dog. The project demonstrates practical skills in computer vision, model building, and evaluation.
 
-Applied data augmentation to increase training data diversity
+---
 
-Model Building:
+## Dataset
 
-Designed a CNN with Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers
+- **Source:** FreeCodeCamp Cats and Dogs Dataset
+- **Content:** Labeled images of cats and dogs, split into training, validation, and test sets
 
-Compiled the model with appropriate optimizer and loss function
+---
 
-Model Training:
+## Workflow
 
-Trained the model on training data with validation
+- **Data Preprocessing:**  
+  - Loaded and rescaled images using `ImageDataGenerator`  
+  - Applied data augmentation (rotation, flips, zoom, etc.) to increase training data diversity
 
-Monitored accuracy and loss to avoid overfitting
+- **Model Building:**  
+  - Designed a CNN with Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers  
+  - Compiled the model with Adam optimizer and binary cross-entropy loss
 
-Evaluation:
+- **Model Training:**  
+  - Trained the model on training data with validation  
+  - Monitored accuracy and loss to avoid overfitting
 
-Evaluated model performance on test data
+- **Evaluation:**  
+  - Evaluated model performance on test data  
+  - Achieved **74% accuracy**, surpassing the 63% challenge requirement
 
-Achieved 74% accuracy, surpassing the 63% challenge requirement
+- **Visualization:**  
+  - Plotted training/validation accuracy and loss  
+  - Visualized predictions and confidence scores for test images
 
-Visualization:
+---
 
-Plotted training/validation accuracy and loss
+## Key Features
 
-Visualized predictions with confidence scores
+- Deep learning model for image classification
+- Data augmentation for improved generalization
+- Clear visualization of model performance
+- Practical application of TensorFlow and Keras for computer vision
 
-Key Features
-Deep learning model for image classification
+---
 
-Data augmentation to improve generalization
+## How to Run
 
-Clear visualization of model performance
+1. Upload the dataset and notebook to Google Colab or Jupyter.
+2. Run the notebook cells in order.
+3. View training progress, evaluation metrics, and prediction visualizations.
 
-Practical application of TensorFlow and Keras
+---
 
-How to Run
-Upload the dataset and notebook to Google Colab or Jupyter
+## Business Impact
 
-Run the notebook cells sequentially
+- Demonstrates the application of deep learning to real-world image classification problems
+- Useful for projects involving computer vision and automated image recognition
 
-View the training progress, evaluation metrics, and prediction visualizations
+---
 
-Business Impact
-Demonstrates ability to apply deep learning to real-world image classification problems
+## License
 
-Useful for projects involving computer vision and automated image recognition
-
-License
 This project is for educational purposes only.
+
